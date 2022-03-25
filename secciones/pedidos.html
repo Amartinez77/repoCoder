@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/favicon.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Pedidos</title>
+</head>
+
+<body>
+
+  <div class="containerP">
+    <header id="header">
+      <div class="logo">
+        <img src="../images/logo_panucci.png" alt="logo principal de la pagina" id="top">
+      </div>
+    </header>
+    <nav id="nav" class="nav_style">
+      <!-- <div> -->
+      <ul>
+        <li>
+          <a href="../index.html"> HOME</a>
+        </li>
+        <li>
+          <a href="../secciones/menu.html"> MENU</a>
+        </li>
+        <li>
+          <a href="../secciones/reservas.html"> RESERVAS</a>
+        </li>
+        <li>
+          <a href="../secciones/pedidos.html"> PEDIDOS</a>
+        </li>
+        <li>
+          <a href="./nosotros.html"> NOSOTROS</a>
+        </li>
+      </ul>
+      <!-- </div> -->
+    </nav>
+    <section id="heroImg">
+      <article class="hero_image2">
+        <div>
+          <h1> - HACE TU PEDIDO -</h1>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="barra_izq" class="sect_izq">
+      <div class="aside_img2">
+        <img src="../images/beer.svg" alt="">
+        <img src="../images/papas_fritas.svg" alt="">
+        <img src="../images/pizza_svg.svg" alt="">
+        <img src="../images/vaso.svg" alt="">
+        <img src="../images/hambur.svg" alt="">
+      </div>
+    </section>
+
+
+    <main id="mainP" class="mainPed">
+
+      <section class="sectionPedido">
+
+
+        <form class="formPedido">
+          <div class="divFormPedido">
+            <h2> - Pedido -</h2>
+            <label for="nombre">Nombre y apellido</labe>
+              <br>
+              <input type="text" placeholder="Nombre y apellido" name="nombre" id="nombre" class="formPedidoInput">
+              <br>
+              <label for="telefono">telefono</label>
+              <br>
+              <input type="tel" placeholder="388-123-4567" name="telefono" id="telefono" class="formPedidoInput">
+              <br>
+
+              <fieldset>
+                <legend><b>Adonde llevamos tu pedido</b></legend>
+                <p>Localidad</p>
+                <select name="localidad" required>
+                  <option value="" selected>Elige una opción</option>
+                  <option value="ss">San Salvador de Jujuy</option>
+                  <option value="sp">San Pedro</option>
+                  <option value="led">Ledesma</option>
+                  <option value="ec">El Carmen</option>
+                  <option value="sa">San Antonio</option>
+                </select>
+                <label for="direccion">Direccion</label>
+                <input type="text" placeholder="direccion 123" name="direccion" id="direccion">
+                <br>
+                <label for="envio">Retiro en el local</label>
+                <input type="radio" name="envio" id="envio" value="local">
+                <br>
+                <label for="domicilio">Envío a domicilio</label>
+                <input type="radio" name="envio" id="domicilio" value="domicilio">
+
+              </fieldset>
+              <fieldset>
+                <legend><b>Pizzas</b></legend>
+
+                <br>
+                <input type="radio" name="pizza1" id="muzza" value="muzza">
+                <label for="muzza">Muzarella</label>
+                <input type="radio" name="pizza1" id="especial" value="especial" checked>
+                <label for="especial">Especial</label>
+                <input type="radio" name="pizza1" id="ryjl" value="ryj">
+                <label for="ryj">Rucula y Jamon Crudo</label>
+                <input type="radio" name="pizza1" id="fuga" value="fuga">
+                <label for="fuga">Fugazzeta</label>
+                <input type="radio" name="pizza1" id="mex" value="mex">
+                <label for="mex">Mexicana</label>
+                <br>
+                <label for="grande">Grande</label>
+                <input type="checkbox" name="grande" id="grande" value="grande">
+                <br>
+                <label for="chica">Chica</label>
+                <input type="checkbox" name="chica" id="chica" value="chica">
+                <hr>
+                <input type="radio" name="pizza2" id="muzza" value="muzza">
+                <label for="muzza">Muzarella</label>
+                <input type="radio" name="pizza2" id="especial" value="especial" checked>
+                <label for="especial">Especial</label>
+                <input type="radio" name="pizza2" id="ryjl" value="ryj">
+                <label for="ryj">Rucula y Jamon Crudo</label>
+                <input type="radio" name="pizza2" id="fuga" value="fuga">
+                <label for="fuga">Fugazzeta</label>
+                <input type="radio" name="pizza2" id="mex" value="mex">
+                <label for="mex">Mexicana</label>
+                <br>
+                <label for="grande">Grande</label>
+                <input type="checkbox" name="grande" id="grande" value="grande">
+                <br>
+                <label for="chica">Chica</label>
+                <input type="checkbox" name="chica" id="chica" value="chica">
+                <hr>
+                <input type="radio" name="pizza3" id="muzza" value="muzza">
+                <label for="muzza">Muzarella</label>
+                <input type="radio" name="pizza3" id="especial" value="especial" checked>
+                <label for="especial">Especial</label>
+                <input type="radio" name="pizza3" id="ryjl" value="ryj">
+                <label for="ryj">Rucula y Jamon Crudo</label>
+                <input type="radio" name="pizza3" id="fuga" value="fuga">
+                <label for="fuga">Fugazzeta</label>
+                <input type="radio" name="pizza3" id="mex" value="mex">
+                <label for="mex">Mexicana</label>
+                <br>
+                <label for="grande">Grande</label>
+                <input type="checkbox" name="grande" id="grande" value="grande">
+                <br>
+                <label for="chica">Chica</label>
+                <input type="checkbox" name="chica" id="chica" value="chica">
+                <hr>
+
+
+              </fieldset>
+              <fieldset>
+                <legend><b>Empanadas</b></legend>
+
+                <br>
+                <input type="radio" name="emp1" id="carne" value="carne">
+                <label for="carne">Carne</label>
+                <input type="radio" name="emp1" id="pollo" value="pollo">
+                <label for="pollo">Pollo</label>
+                <input type="radio" name="emp1" id="jyq" value="jyq">
+                <label for="jyq">Jamon y Queso</label>
+                <input type="radio" name="emp1" id="mat" value="mat">
+                <label for="mat">Matambre</label>
+                <input type="radio" name="emp1" id="cap" value="cap">
+                <label for="cap">Capresse</label>
+                <br><br>
+                <label for="cantidad">ingrese cantidad de empanadas</label>
+                <input type="number" placeholder="numero" name="cantidad" id="cantidad">
+                <hr>
+                <input type="radio" name="emp2" id="carne" value="carne">
+                <label for="carne">Carne</label>
+                <input type="radio" name="emp2" id="pollo" value="pollo">
+                <label for="pollo">Pollo</label>
+                <input type="radio" name="emp2" id="jyq" value="jyq">
+                <label for="jyq">Jamon y Queso</label>
+                <input type="radio" name="emp2" id="mat" value="mat">
+                <label for="mat">Matambre</label>
+                <input type="radio" name="emp2" id="cap" value="cap">
+                <label for="cap">Capresse</label>
+                <br><br>
+                <label for="cantidad2">ingrese cantidad de empanadas</label>
+                <input type="number" placeholder="numero" name="cantidad2" id="cantidad2">
+                <hr>
+                <input type="radio" name="emp3" id="carne" value="carne">
+                <label for="carne">Carne</label>
+                <input type="radio" name="emp3" id="pollo" value="pollo">
+                <label for="pollo">Pollo</label>
+                <input type="radio" name="emp3" id="jyq" value="jyq">
+                <label for="jyq">Jamon y Queso</label>
+                <input type="radio" name="emp3" id="mat" value="mat">
+                <label for="mat">Matambre</label>
+                <input type="radio" name="emp3" id="cap" value="cap">
+                <label for="cap">Capresse</label>
+                <br>
+                <br>
+                <label for="cantidad3">ingrese cantidad de empanadas</label>
+                <input type="number" placeholder="numero" name="cantidad3" id="cantidad3">
+                <hr>
+
+
+              </fieldset>
+          </div>
+
+          <br>
+          <label for="mensaje">agregar mensaje</label><br>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formPedidoInput"></textarea>
+          <br><br>
+          <input type="reset" value="Cancelar">
+          <input type="submit" value="Enviar">
+
+        </form>
+
+      </section>
+
+
+
+    </main>
+
+    <section id="barra_der" class="sect_der">
+      <div class="aside_img">
+        <img src="../images/beer.svg" alt="">
+        <img src="../images/papas_fritas.svg" alt="">
+        <img src="../images/pizza_svg.svg" alt="">
+        <img src="../images/vaso.svg" alt="">
+        <img src="../images/hambur.svg" alt="">
+      </div>
+    </section>
+
+
+    <div id="botonUp" class="bTop">
+      <a href="../secciones/pedidos.html#"><img src="../images/top.svg" alt=""></img></a>
+    </div>
+
+    <footer class="pie" id="footer">
+      <h2>2022</h2>
+      <h3> todos los derechos reservados </h3>
+      <div>
+        <a href="https://twitter.com" target="_blank"> <img src="../images/twitter.svg" alt="" class="icon"></a>
+        <a href="https://facebook.com" target="_blank"> <img src="../images/facebook.svg" alt="" class="icon"></a>
+        <a href="https://youtube.com" target="_blank"><img src="../images/youtube.svg" alt="" class="icon"></a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
