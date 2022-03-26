@@ -122,7 +122,7 @@ body {
   transition: background-size 0.3s;
 }
 
-.nav_style ol li a:hover {
+.nav_style ul li a:hover {
   color: white;
   font-weight: 600;
   /*Subrayado animado*/
