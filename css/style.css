@@ -98,7 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.75); */
 }
 
 .nav_style ul {
@@ -115,6 +115,18 @@ body {
   font-size: 1.8rem;
   color: white;
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.nav_style ol li a:hover {
+  color: white;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
 }
 
 .hero_image {
